@@ -14,3 +14,8 @@ app.use(PATH, function(req, res, next) {/* Middleware function code goes here */
 * PATH is just a string specifying for what requests the middleware should be used for. For example, for a path of '/hello', the middleware function would only be called when going to 'http://your_cool_domain_name.com/hello'.
 
 * You can omit PATH and the middleware will be called for ALL requests.
+##How are middleware functions processed?
+
+* Middlewares are called in the order they are registered.
+
+##What are some uses for middleware functions?
